@@ -1,0 +1,175 @@
+.left-menu {
+    margin: 16px 0 16px 16px;
+    width: 72px;
+    height: 900px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.container {
+    display: flex;
+    background-color: #EDEDED;
+    width: 1440px;
+    min-height: 930px;
+    margin: 0 auto;
+}
+
+
+.right-menu{
+    width: 383px;
+    margin-left: 70px;
+}
+
+.total h3{
+   
+    text-align: center;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1A1F16;
+}
+.button-check{
+    text-align: center;
+    width: 161px;
+    height: 40px;
+    display: flex;
+    margin:  25px  70px;
+    padding:  7px 35px;
+    background: #1A1F16;
+    border-radius: 14px;
+}
+.button-check div img {
+    margin-right:10px ;
+}
+.button-check div h5{
+    margin-top: 5px;
+    color: white;
+}
+.main h1 {
+
+    text-align: center;
+}
+
+.logo img {
+    margin: 16px 22px 55px 18px;
+}
+
+.menu img {
+    margin: 0 22px 40px 22px;
+}
+
+.home img {
+    margin: 0 22px 40px 22px;
+}
+
+.store img {
+    margin: 0 22px 0px 22px;
+}
+
+.sm-card {
+    width: 80px;
+    height: 80px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    margin: 26px 24px 24px 15px;
+}
+
+.view-bag {
+    margin: 40px auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    width: 159px;
+    height: 40px;
+    border-radius: 14px;
+
+}
+
+.main{
+    margin: 15px 0 0 82px;
+}
+
+.items{
+    margin-top: 32px;
+    margin-left: 82px;
+    width: 877px;
+    height: 288px;
+    background: #FFFFFF;
+    border-radius: 21px;
+    display: flex;
+}
+.items-detail{
+    margin-top: 40px;
+}
+.items-detail h1{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31.25px;
+    line-height: 38px;
+    color: #1A1F16;
+}
+.items-detail p{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #60695C;
+}
+
+.items-detail h3{
+margin-top: 10px;
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: -0.02em;
+color: #1A1F16;
+}
+
+.items-detail h6{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1A1F16;
+}
+
+.items-img{
+    margin-left: 16px;
+    margin-right: 50px;
+}
+
+.right-menus {
+    display: flex;
+    width: 393px;
+    text-align: center;
+}
+
+.right-menus .lines {
+    margin-left: 90px;
+    margin-top: 50px;
+    color: #1A1F16;
+    min-height: 850px;
+    border: 2px solid rgba(26, 31, 22, 0.5);
+}
+
+.right-mains {
+
+    width: 250px;
+    padding-top: 80px;
+}
+
+.right-mains h1 {
+    text-align: center;
+    margin-left: auto;
+    padding-left: 60px;
+
+
+}

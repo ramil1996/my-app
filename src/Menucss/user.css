@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    background-color: #EDEDED;
+    width: 1440px;
+    min-height: 930px;
+    margin: 0 auto;
+}
+
+.card-page{
+    display: flex;
+    margin:  15px auto;
+    width: 871px;
+    height: 230px;
+    background: #FFFFFF;
+    border-radius: 13px;
+}
+.card-user{
+    margin: 15px 0 0 10px;
+}
+.card-page  h1{
+
+    height: 38px;
+    margin-bottom: 24px;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31.25px;
+    line-height: 38px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+}
+.card-user p{
+    margin-bottom:  5px;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.card-user h2{
+    margin-bottom: 5px;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.card-user h3{
+    margin-bottom: 5px;
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #1A1F16;
+
+}
+.card-user h4{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.card-button button{
+    border: 1px solid #1A1F16;
+    box-sizing: border-box;
+    border-radius: 11px;
+    width: 98px;
+    height: 35px;
+}

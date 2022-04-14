@@ -1,0 +1,88 @@
+.left-menu {
+    margin: 16px 0 16px 16px;
+    width: 72px;
+    height: 900px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.container {
+    background-color: #EDEDED;
+    width: 1440px;
+    min-height: 930px;
+    margin: 0 auto;
+}
+
+.menu-main{
+    width: 88px;
+    height: 40px;
+    display: flex;
+    margin: 48px 0 24px 58px;
+    text-decoration: none;
+}
+
+.arrow{
+    margin-top: 10px;
+}
+
+.main-menu h1{
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #1A1F16;
+}
+
+.picture-info{
+        margin-top: 15px;
+    margin-left: 30px;
+    width: 258px;
+    height: 318px;
+    background: #FFFFFF;
+    border-radius: 13px;
+}
+.picture-info img{
+width: 242px;
+height: 302px;
+}
+.menu-info{
+    display: flex;
+}
+.products-info{
+    margin-left: 50px;
+}
+.products-info h1 {
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 74px;
+color: #1A1F16;
+}
+.products-info p{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31.25px;
+    line-height: 38px;
+   color: rgba(26, 31, 22, 0.5);
+}
+.products-info h3{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31.25px;
+    line-height: 38px;
+    color: #1A1F16;
+}
+.products-info h6{
+    width: 509px;
+    height: 106px;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+

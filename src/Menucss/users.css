@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    background-color: #EDEDED;
+    width: 1440px;
+    min-height: 930px;
+    margin: 0 auto;
+}
+
+.bg-card{
+    margin:  15px auto;
+    width: 676px;
+    height: 834px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+.input-text h1{
+    margin: 10px 40px;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: rgba(26, 31, 22, 0.5);
+}
+
+.input-text input{
+    padding-left: 20px;
+    margin:5px 40px;
+    width: 596px;
+    height: 56px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(26, 31, 22, 0.15);
+    border-radius: 13px;
+}
+
+.back{
+    margin: 15px 0 0 40px;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    text-decoration:none;
+    color: rgba(26, 31, 22, 0.5);
+}
