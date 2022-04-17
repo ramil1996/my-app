@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import menucss from "../Menucss/menu.css";
 import image from "../image/logo.svg";
 import image1 from "../image/menu.svg";
@@ -8,8 +8,10 @@ import image4 from "../image/right-store.svg";
 import { Link } from "react-router-dom";
 
 import ProductServices from "../services/productServices";
+import { ProductContext } from "../App";
 
 export default function () {
+  const context = useContext(ProductContext);
   const [products, setProducts] = useState([]);
   const filterNames = (e) => {
     const search = e.target.value.toLowerCase();
@@ -68,7 +70,10 @@ export default function () {
 
                     <div className="card-info">
                       <h3>{product.price} $</h3>
-                      <img src={image4} />
+                      <img
+                        src={image4}
+                        onClick={() => context.addToCart(product)}
+                      />
                     </div>
                   </div>
                 </div>
@@ -80,7 +85,9 @@ export default function () {
           <div className="line"></div>
           <div className="right-main">
             <h1 className="main">BAG</h1>
-            <div className="sm-card"></div>
+            {products.map((product) => {
+              <div className="sm-card">{product.image}</div>;
+            })}
             <Link to="/detail">
               <div className="view-bag">
                 <div>

@@ -103,7 +103,7 @@
 }
 .items-detail{
     margin-top: 40px;
-}
+;}
 .items-detail h1{
     font-family: 'Cabin';
     font-style: normal;
@@ -142,8 +142,13 @@ color: #1A1F16;
 }
 
 .items-img{
+    width: 150px;
     margin-left: 16px;
     margin-right: 50px;
+}
+
+.items-img img{
+    width: 150px;
 }
 
 .right-menus {
@@ -154,7 +159,7 @@ color: #1A1F16;
 
 .right-menus .lines {
     margin-left: 90px;
-    margin-top: 50px;
+    margin-top: 20px;
     color: #1A1F16;
     min-height: 850px;
     border: 2px solid rgba(26, 31, 22, 0.5);
@@ -172,4 +177,13 @@ color: #1A1F16;
     padding-left: 60px;
 
 
+}
+
+.remove-button{
+    border: 1px solid #1A1F16;
+    box-sizing: border-box;
+    border-radius: 11px;
+    width: 98px;
+    height: 35px;
+    margin-left: 10px;
 }
